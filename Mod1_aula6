@@ -1,0 +1,31 @@
+
+peso =
+altura =
+imc = peso / (altura**2)
+
+conceito = " "
+
+if (imc< 18.5){
+	conceito = "Magreza"
+} else if (imc < 24.99){
+	conceito = "Normal"
+} else if (imc < 29.99){
+	conceito = "Sobrepeso"
+} else if (imc < 39.99){
+	conceito = "Obesidade"
+} else {
+	conceito = "Obesidade grave"
+}
+console.log ("Seu IMC é", imc)
+console.log ("Sua classificação é", conceito)
+
+switch (conceito){
+	case "sobrepreso"
+		console.log("Cuidado! Você está acima do peso recomendado pela OMS")
+	break;
+	case "obesidade"
+		console.log(""Cuidado! Você está acima do peso recomendado pela OMS")
+	break;
+	case "obesidade grave"
+		console.log(""Cuidado! Você está acima do peso recomendado pela OMS")
+	break;
