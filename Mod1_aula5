@@ -1,0 +1,44 @@
+// exercício 1
+
+nome1 = "Rita"
+nome2 = "Vera"
+mesmoNome = (nome1 == nome2)
+console.log(mesmoNome)
+
+// exercício 2
+
+idade = 12
+verificaIdade = (idade >= 18)
+console.log (verificaIdade)
+
+// exercício 3
+
+boleto = 100
+boletoComJuros = boleto * 1.1
+console.log (boletoComJuros)
+
+// exercício 4
+
+item1 = 2
+item2 = 4
+item3 = 6
+item4 = 8
+item5 = 10
+media = ((item1 + item2 + item3 + item4 + iten5)/5)
+
+// exercício 5
+
+receitaLiquida = 
+custoProdutos = 
+lucroBruto = receitaLiquida - custoProdutos
+margemBruta = (lucroBruto - receitaLiquida) * 100
+
+// exercício 6
+
+saldo = 1000
+saldo = saldo - 99.9
+saldo = saldo + 2500
+saldo = saldo - 0.1
+saldo = saldo * 0.75
+saldo = saldo / 2
+console.log (saldo)
